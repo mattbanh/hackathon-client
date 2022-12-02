@@ -1,0 +1,52 @@
+.cardTwo {
+  display: flex;
+  background-color: #333333;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-bottom: 3.75rem;
+  width: 75rem;
+
+  &__container-left {
+    position: relative;
+  }
+
+  &__float-text {
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    color: #ffffff;
+    font-size: 1.5625rem;
+    font-weight: 500;
+  }
+
+  &__title {
+    color: #ffffff;
+    font-size: 3.125rem;
+    font-weight: 700;
+    padding-top: 2.5rem;
+    padding-left: 4.375rem;
+    padding-bottom: 0.75rem;
+  }
+
+  &__text {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 2.9375rem;
+    padding-left: 4.375rem;
+    padding-right: 4.0625rem;
+    padding-bottom: 1.6875rem;
+  }
+
+  &__cta {
+    color: #ffffff;
+    font-size: 1.5625rem;
+    font-weight: 600;
+    padding-left: 4.375rem;
+  }
+
+  &__image {
+    border-radius: 30px;
+    height: 100%;
+  }
+}
