@@ -3,6 +3,7 @@ import "./App.scss";
 import Hero from "./components/Hero/Hero";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import TopCarousel from "./components/TopCarousel/TopCarousel";
 
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -11,7 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      
+      <TopCarousel />
       {/* <BrowserRouter>
          <Routes>
           <Route path="/" element={<Marketing />} />
