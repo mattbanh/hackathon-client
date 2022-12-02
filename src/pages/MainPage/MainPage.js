@@ -1,5 +1,8 @@
 import Hero from "../../components/Hero/Hero";
 import TopCarousel from "../../components/TopCarousel/TopCarousel";
+import Card from "../../components/Card/Card";
+import CardTwo from "../../components/CardTwo/CardTwo";
+
 
 function MainPage() {
   return (
@@ -7,6 +10,8 @@ function MainPage() {
       ;
       <Hero />
       <TopCarousel />
+      <Card />
+      <CardTwo />
     </section>
   );
 }
