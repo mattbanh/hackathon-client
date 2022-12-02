@@ -1,12 +1,15 @@
 import "./App.scss";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="test-header">Electronic Arts</h1>
-      </header>
+      <Header />
+      <h1>IP TEAM 8</h1>
+
       {/* <BrowserRouter>
          <Routes>
           <Route path="/" element={<Marketing />} />
@@ -16,6 +19,7 @@ function App() {
           <Route path="*" element={<Navigate to="/404" />} />
         </Routes>
       </BrowserRouter> */}
+      <Footer />
     </div>
   );
 }
