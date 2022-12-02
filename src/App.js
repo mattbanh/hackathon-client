@@ -1,4 +1,6 @@
 import "./App.scss";
+
+import Hero from "./components/Hero/Hero";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
@@ -8,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>IP TEAM 8</h1>
-
+      <Hero />
+      
       {/* <BrowserRouter>
          <Routes>
           <Route path="/" element={<Marketing />} />
