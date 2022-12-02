@@ -39,30 +39,31 @@ export default function Header() {
         <div className="header__bottom">
           {/* <div className="header__bottom-wrap"> */}
             <div className="header__bottom-logo-container">
-              {/* <Link to={`/`}> */}
-
+             
+              {/* <Link to={`/`}>  */}
               <img
                 className="header__bottom-logo-img"
                 src={logo}
-                alt="InStock Logo"
+                alt=" Logo"
               />
-              {/* </Link> */}
+               {/* </Link>  */}
+
             </div>
             <div className="header__bottom-links">
               <div className="header__bottom-links-right">
-                {/* <Link to={`warehouses`}> */}
+                {/* <Link to={``}> */}
                 <div className="header__bottom-link">Games</div>
                 {/* </Link> */}
-                {/* <Link to={`warehouses`}> */}
+                {/* <Link to={``}> */}
                 <div className="header__bottom-link">About</div>
                 {/* </Link> */}
-                {/* </Link> */} {/* <Link to={`warehouses`}> */}
+                {/* </Link> */} {/* <Link to={``}> */}
                 <div className="header__bottom-link">More Experiences</div>
                 {/* </Link> */}
-                {/* </Link> */} {/* <Link to={`warehouses`}> */}
+                {/* </Link> */} {/* <Link to={``}> */}
                 <div className="header__bottom-link">Commitments</div>
                 {/* </Link> */}
-                {/* </Link> */} {/* <Link to={`warehouses`}> */}
+                {/* </Link> */} {/* <Link to={``}> */}
                 <div className="header__bottom-link">Resourses</div>
                 {/* </Link> */}
               </div>

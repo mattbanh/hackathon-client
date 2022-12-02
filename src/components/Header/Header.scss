@@ -3,6 +3,21 @@
 @use "../../styles/partials/colors" as colors;
 @use "../../styles/partials/breakpoints" as breakpoints;
 
+
+@include breakpoints.medium {
+  .header{
+    &__bottom-links{
+      display: unset;
+         
+    width: unset;
+    justify-content: unset;
+    }
+    &__bottom-links-right{
+display: none;
+    }
+}
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -37,33 +52,30 @@
     padding-left: 2rem;
     padding-right: 2rem;
     justify-content: space-between;
-    //width: 83.43rem;
-    //height: 3rem;
-
-    // &-wrap{
-    //     display: flex;
-    //     justify-content: flex-start;
-    // }
+    
   }
   &__bottom-logo-img {
     padding-right: 4rem;
   }
-
+@include breakpoints.large {
   &__bottom-links {
     display: flex;
     width: 100%;
     justify-content: space-between;
   }
+}
 
+
+  @include breakpoints.large {
   &__bottom-links-right {
     padding-top: 0.3rem;
-  }
-
-  &__bottom-links-right {
     display: flex;
     justify-content: space-between;
     width: 60%;
   }
+}
+
+ 
 
   &__button {
     background-color: #000000;
@@ -75,3 +87,4 @@
     border-radius: 0.5rem;
   }
 }
+
