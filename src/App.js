@@ -1,11 +1,17 @@
 import "./App.scss";
+
 import Hero from "./components/Hero/Hero";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Hero />
+      
       {/* <BrowserRouter>
          <Routes>
           <Route path="/" element={<Marketing />} />
@@ -15,6 +21,7 @@ function App() {
           <Route path="*" element={<Navigate to="/404" />} />
         </Routes>
       </BrowserRouter> */}
+      <Footer />
     </div>
   );
 }
