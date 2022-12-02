@@ -15,12 +15,7 @@ const CardTwo = () => {
         </div>
       </div>
       <div className="cardTwo__container-right">
-        <img
-          className="cardTwo__image"
-          src={imageTwo}
-          alt="Several Games Images"
-          width="676"
-        />
+        <img className="cardTwo__image" src={imageTwo} alt="NHL Player" />
       </div>
     </article>
   );
