@@ -21,7 +21,7 @@ function TopCarousel() {
         slidesPerView={2}
         centeredSlides={true}
         initialSlide="1"
-        className="mySwiper"
+        className="top-carousel-swiper"
       >
         <div>
           <SwiperSlide>
