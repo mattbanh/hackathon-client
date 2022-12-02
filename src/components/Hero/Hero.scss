@@ -1,0 +1,99 @@
+.hero-slide {
+  height: 500px;
+  width: 100%;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem;
+  padding: 2rem 4rem;
+  gap: 4rem;
+  &__text-container {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    max-width: 30rem;
+    // align-items: center;
+    // width: 100%;
+  }
+  &__title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  &__subheader {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  &__text {
+    font-size: 1rem;
+    margin-bottom: 5rem;
+  }
+  &__link {
+    text-decoration: none;
+  }
+  &__button {
+    padding: 0.5rem 1rem 0.75rem;
+    max-width: 8rem;
+    border-radius: 5px;
+    background-color: #ff3e3e;
+    text-align: center;
+  }
+  &__button-text {
+    display: block;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  &__image {
+    border-radius: 30px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__list {
+    list-style-type: none;
+    padding: 0;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  //   text-align: center;
+  //   font-size: 18px;
+  //   background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #ff3e3e;
+}
