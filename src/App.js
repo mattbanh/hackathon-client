@@ -1,12 +1,11 @@
 import "./App.scss";
+import Hero from "./components/Hero/Hero";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="test-header">Electronic Arts</h1>
-      </header>
+      <Hero />
       {/* <BrowserRouter>
          <Routes>
           <Route path="/" element={<Marketing />} />
