@@ -1,0 +1,16 @@
+.pp-list {
+  margin: 0 auto;
+  &__title {
+    color: #000000;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+  }
+
+  &__card-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
