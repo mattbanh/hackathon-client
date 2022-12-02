@@ -1,7 +1,9 @@
+import HeroPlayReal from "../../components/HeroPlayReal/HeroPlayReal";
+
 function LivePage() {
   return (
     <section className="live-page">
-      <h1>Test</h1>
+      <HeroPlayReal/>
     </section>
   );
 }

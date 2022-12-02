@@ -3,47 +3,117 @@
 @use "../../styles/partials/colors" as colors;
 @use "../../styles/partials/breakpoints" as breakpoints;
 
+
+ @include breakpoints.medium {
+    .main{
+
+        &__title {
+    font-size: 2rem;
+      font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+        }
+  &__hero-video {
+ width: 22rem;
+    height: 15rem;
+    border-radius: 1.8rem;
+  }
+
+  &__text-title{
+    font-size: 2rem;
+  }
+
+   &__text-info {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  &__hero-live {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    width: 3rem;
+  }
+
+  &__hero-play {
+    position: absolute;
+    top: 5rem;
+    left: 8rem;
+    width: 5rem;
+  }
+}
+}
+
 .main {
   max-width: 70rem;
   margin-left: auto;
   margin-right: auto;
   border-radius: 1.8rem;
 
+   @include breakpoints.large {
+
   &__title {
-    font-size:3rem;
+    font-size: 3rem;
     font-weight: 700;
-    margin-left: 28rem;
+    text-align: center;
     margin-bottom: 3rem;
-    margin-left: 28rem;
     margin-top: 1rem;
   }
+}
 
   &__hero {
+    position: relative;
     overflow: hidden;
     display: flex;
     border-radius: 1.8rem;
+     background: #333333;
   }
+
+   @include breakpoints.large {
   &__hero-video {
     width: 45rem;
     height: 30rem;
+    border-radius: 1.8rem;
   }
 
+ &__hero-live {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    width: 3rem;
+  }
+
+  &__hero-play {
+    position: absolute;
+    top: 12rem;
+    left: 21rem;
+    width: 5rem;
+  }
+}
+
+ 
+
   &__text {
-    background:#333333;
+    background: #333333;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     padding-top: 2.5rem;
     color: white;
   }
 
-  &__text-title{
+   @include breakpoints.large {
+  &__text-title {
     font-size: 3rem;
     font-weight: 700;
   }
-
-  &__text-info{
+  &__text-info {
     padding-top: 3rem;
     font-size: 2.25rem;
     font-weight: 400;
   }
+}
+
+  
 }

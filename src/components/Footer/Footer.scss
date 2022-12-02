@@ -3,6 +3,13 @@
 @use "../../styles/partials/colors" as colors;
 @use "../../styles/partials/breakpoints" as breakpoints;
 
+@include breakpoints.medium {
+  .footer {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+}
+
 .footer {
   display: flex;
   //justify-content: space-between;
@@ -25,13 +32,11 @@
     display: flex;
     justify-content: space-between;
     width: 70%;
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-top: 1rem;
   }
 
   &__link-right {
-    //width:40%;
-    // padding-left: 13rem;
     padding-top: 1rem;
   }
 
@@ -71,7 +76,6 @@
     &__link-left,
     &__link-join {
       font-size: 0.8rem;
-      padding-left: 1rem;
     }
     &__link {
       padding-right: 1rem;
