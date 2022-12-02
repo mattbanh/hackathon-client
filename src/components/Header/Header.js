@@ -1,5 +1,5 @@
 import logo from "../../assets/logo/logo.svg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./Header.scss";
 
 export default function Header() {
@@ -38,11 +38,11 @@ export default function Header() {
         </div>
         <div className="header__bottom">
           {/* <div className="header__bottom-wrap"> */}
+          {/* <Link to="/"> */}
           <div className="header__bottom-logo-container">
-            {/* <Link to={`/`}>  */}
             <img className="header__bottom-logo-img" src={logo} alt=" Logo" />
-            {/* </Link>  */}
           </div>
+          {/* </Link> */}
           <div className="header__bottom-links">
             <div className="header__bottom-links-right">
               {/* <Link to={``}> */}
