@@ -1,0 +1,49 @@
+@use "../../styles/partials/fonts";
+@use "../../styles/partials/resets";
+@use "../../styles/partials/colors" as colors;
+@use "../../styles/partials/breakpoints" as breakpoints;
+
+.main {
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1.8rem;
+
+  &__title {
+    font-size:3rem;
+    font-weight: 700;
+    margin-left: 28rem;
+    margin-bottom: 3rem;
+    margin-left: 28rem;
+    margin-top: 1rem;
+  }
+
+  &__hero {
+    overflow: hidden;
+    display: flex;
+    border-radius: 1.8rem;
+  }
+  &__hero-video {
+    width: 45rem;
+    height: 30rem;
+  }
+
+  &__text {
+    background:#333333;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 2.5rem;
+    color: white;
+  }
+
+  &__text-title{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  &__text-info{
+    padding-top: 3rem;
+    font-size: 2.25rem;
+    font-weight: 400;
+  }
+}

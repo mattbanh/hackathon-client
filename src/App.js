@@ -4,14 +4,15 @@ import Hero from "./components/Hero/Hero";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
+
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Hero />
       
+      <Hero />
       {/* <BrowserRouter>
          <Routes>
           <Route path="/" element={<Marketing />} />
