@@ -9,15 +9,12 @@ const Card = () => {
         <div className="card__text">
           eSports Champion Diana Slay shares how the EA App elevates her streams
         </div>
-        <div className="card__cta">Listen Now</div>
+        <div className="card__cta-wrapper">
+          <button className="card__cta">Watch Now</button>
+        </div>
       </div>
       <div className="card__container-right">
-        <img
-          className="card__image"
-          src={imageOne}
-          alt="Girl Playing"
-          width="676"
-        />
+        <img className="card__image" src={imageOne} alt="Girl Playing" />
       </div>
     </article>
   );
