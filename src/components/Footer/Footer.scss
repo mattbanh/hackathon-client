@@ -4,18 +4,18 @@
 @use "../../styles/partials/breakpoints" as breakpoints;
 
 @include breakpoints.medium {
-  .footer{
-padding-left: 7rem;
-  padding-right: 7rem;
+  .footer {
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
 }
- 
+
 .footer {
   display: flex;
   //justify-content: space-between;
-  padding-left: 7rem;
-  padding-right: 7rem;
-  padding-bottom:5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
 
   &__logo {
     width: 4rem;
@@ -37,8 +37,6 @@ padding-left: 7rem;
   }
 
   &__link-right {
-    //width:40%;
-    padding-left: 16rem;
     padding-top: 1rem;
   }
 
@@ -78,7 +76,6 @@ padding-left: 7rem;
     &__link-left,
     &__link-join {
       font-size: 0.8rem;
-     
     }
     &__link {
       padding-right: 1rem;

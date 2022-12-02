@@ -38,35 +38,29 @@ export default function Header() {
         </div>
         <div className="header__bottom">
           {/* <div className="header__bottom-wrap"> */}
-            <div className="header__bottom-logo-container">
-             
-              {/* <Link to={`/`}>  */}
-              <img
-                className="header__bottom-logo-img"
-                src={logo}
-                alt=" Logo"
-              />
-               {/* </Link>  */}
-
+          <div className="header__bottom-logo-container">
+            {/* <Link to={`/`}>  */}
+            <img className="header__bottom-logo-img" src={logo} alt=" Logo" />
+            {/* </Link>  */}
+          </div>
+          <div className="header__bottom-links">
+            <div className="header__bottom-links-right">
+              {/* <Link to={``}> */}
+              <div className="header__bottom-link">Games</div>
+              {/* </Link> */}
+              {/* <Link to={``}> */}
+              <div className="header__bottom-link">About</div>
+              {/* </Link> */}
+              {/* </Link> */} {/* <Link to={``}> */}
+              <div className="header__bottom-link">More Experiences</div>
+              {/* </Link> */}
+              {/* </Link> */} {/* <Link to={``}> */}
+              <div className="header__bottom-link">Commitments</div>
+              {/* </Link> */}
+              {/* </Link> */} {/* <Link to={``}> */}
+              <div className="header__bottom-link">Resourses</div>
+              {/* </Link> */}
             </div>
-            <div className="header__bottom-links">
-              <div className="header__bottom-links-right">
-                {/* <Link to={``}> */}
-                <div className="header__bottom-link">Games</div>
-                {/* </Link> */}
-                {/* <Link to={``}> */}
-                <div className="header__bottom-link">About</div>
-                {/* </Link> */}
-                {/* </Link> */} {/* <Link to={``}> */}
-                <div className="header__bottom-link">More Experiences</div>
-                {/* </Link> */}
-                {/* </Link> */} {/* <Link to={``}> */}
-                <div className="header__bottom-link">Commitments</div>
-                {/* </Link> */}
-                {/* </Link> */} {/* <Link to={``}> */}
-                <div className="header__bottom-link">Resourses</div>
-                {/* </Link> */}
-              </div>
             {/* </div> */}
             {/* <Link to={`inventory`}> */}
             <button className="header__button" type="button" name="button">
