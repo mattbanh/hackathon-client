@@ -1,0 +1,84 @@
+@use "../../styles/partials/fonts";
+@use "../../styles/partials/resets";
+@use "../../styles/partials/colors" as colors;
+@use "../../styles/partials/breakpoints" as breakpoints;
+
+@include breakpoints.medium {
+  .footer {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+}
+
+.footer {
+  display: flex;
+  //justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+
+  &__logo {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  &__link {
+    padding-right: 2rem;
+  }
+  &__link-join {
+    text-align: end;
+  }
+  &__link-left {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding-left: 3rem;
+    padding-top: 1rem;
+  }
+
+  &__link-right {
+    padding-top: 1rem;
+  }
+
+  &__link-join {
+    padding-bottom: 1rem;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 17rem;
+  }
+  &__bottom-logo-face {
+    width: 1.5rem;
+    height: 1.9rem;
+  }
+  &__bottom-logo-twit {
+    width: 2rem;
+    height: 2rem;
+  }
+  &__bottom-logo-you {
+    width: 2rem;
+    height: 2rem;
+  }
+  &__bottom-logo-inst {
+    width: 3rem;
+    height: 2rem;
+  }
+  &__bottom-logo-twitch {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@include breakpoints.large {
+  .footer {
+    &__link-left,
+    &__link-join {
+      font-size: 0.8rem;
+    }
+    &__link {
+      padding-right: 1rem;
+    }
+  }
+}

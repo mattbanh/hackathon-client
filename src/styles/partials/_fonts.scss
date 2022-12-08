@@ -1,0 +1,23 @@
+/* Light */
+@font-face {
+  font-family: "EAText";
+  src: url(../../assets/fonts/ElectronicArtsText-Light.woff2) format("woff2");
+  font-weight: 200;
+  font-style: light;
+}
+
+/* Regular */
+@font-face {
+  font-family: "EAText";
+  src: url(../../assets/fonts/ElectronicArtsText-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: "EAText";
+  src: url(../../assets/fonts/ElectronicArtsText-Bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: bold;
+}

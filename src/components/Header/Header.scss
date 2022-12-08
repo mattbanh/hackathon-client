@@ -1,0 +1,91 @@
+@use "../../styles/partials/fonts";
+@use "../../styles/partials/resets";
+@use "../../styles/partials/colors" as colors;
+@use "../../styles/partials/breakpoints" as breakpoints;
+
+
+@include breakpoints.medium {
+  .header{
+    &__bottom-links{
+      display: unset;
+         
+    width: unset;
+    justify-content: unset;
+    }
+    &__bottom-links-right{
+display: none;
+    }
+}
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: white;
+  text-align: center;
+  z-index: 1;
+  &__top {
+    //width: 90rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+
+    background: #000000;
+    &-icon {
+      width: 4rem;
+      padding-top: 0.7rem;
+      padding-bottom: 0.5rem;
+    }
+    &-icon-inside {
+      fill: #bfbfbf;
+    }
+    &-icon-three {
+      width: 4rem;
+      padding-top: 0.25rem;
+      fill: #a3a3a3;
+    }
+  }
+
+  &__bottom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+    
+  }
+  &__bottom-logo-img {
+    padding-right: 4rem;
+  }
+@include breakpoints.large {
+  &__bottom-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+
+  @include breakpoints.large {
+  &__bottom-links-right {
+    padding-top: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+}
+
+ 
+
+  &__button {
+    background-color: #000000;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+  }
+}
+

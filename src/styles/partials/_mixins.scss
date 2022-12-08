@@ -1,0 +1,9 @@
+@use "./colors" as colors;
+
+// mobile text styles
+@mixin mobile-header {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  color: colors.$primary-black;
+}
